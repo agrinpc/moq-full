@@ -1,0 +1,5 @@
+user-agent: *
+Disallow: /login
+Disallow: /app/*
+Disallow: /app
+Sitemap: https://mohammadmoghimi.com/sitemap.xm
