@@ -18,7 +18,7 @@ let UserService = class UserService {
     constructor(srv) {
         this.srv = srv;
         this.username = 'moghimi';
-        this.pass = "$2b$12$XhZ0x4YAJR5xNe7WO5Qe9elUlNcn7SCgoaISQdEXVXoo.THdMUtHe";
+        this.pass = "$2a$12$hjC70tyYH7GDwZZ.t53I4.tVVOx7CyhOLcwwANCkgK//500rKgvCW";
     }
     async login(data) {
         return await this.validate(data.pwd).pipe((0, rxjs_1.switchMap)((res) => {
